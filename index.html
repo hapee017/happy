@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="RG">
+        <link href="css/css.css.css" rel="stylesheet">
+        <script src="jscript/script.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Lab 7: Javascript Arithmetic Operator</h1>
+        </header>
+            <form name="SumMachine" action='' method='GET'>
+                <fieldset>
+                    <legend>My Calculator</legend>
+                    <textarea name="output" id="sumplace" rows="5" cols="15" ></textarea>
+                </fieldset>
+                <fieldset>
+                    <legend>Input</legend>
+                    Operands:  <input type="number" id="inp1" name="Numbers">
+                    <input type="number" id="inp2" name="Numbers">
+                    Operator:  
+                    <input type="button" name="submit" value="+" onclick="addValue()">
+                    <input type="button" name="submit" value="x" onclick="mulValue()">
+                    <input type="button" name="submit" value=":" onclick="divValue()">
+                    <input type="button" name="submit" value="clear" onclick="clr()"/>
+                </fieldset>               
+            </form>
+    </body>
+</html>
